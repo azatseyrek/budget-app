@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
 
-const IncomeTransactions = ({ incomeTransaction }) => {
+const IncomeTransaction = ({ incomeTransaction }) => {
   const { deleteTransaction } = useContext(GlobalContext);
 
   return (
@@ -20,4 +20,4 @@ const IncomeTransactions = ({ incomeTransaction }) => {
   );
 };
 
-export default IncomeTransactions;
+export default IncomeTransaction;
